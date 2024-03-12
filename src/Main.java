@@ -51,18 +51,18 @@ public class Main {
                             System.out.println("Digite la denominacion de moneda a contar:\n$20\n$50\n$100\n$200\n$500");
                             tipoMoneda = DatosMenu.nextInt();
                             if (tipoMoneda == 20) {
-                                System.out.println("De la mnoneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaVeinte * 20));
+                                System.out.println("De la moneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaVeinte * 20));
 
                             } else if (tipoMoneda == 50) {
-                                System.out.println("De la mnoneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaCinco * 50));
+                                System.out.println("De la moneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaCinco * 50));
 
                             } else if (tipoMoneda == 100) {
-                                System.out.println("De la mnoneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaCien * 100));
+                                System.out.println("De la moneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaCien * 100));
 
                             } else if (tipoMoneda == 200) {
-                                System.out.println("De la mnoneda  $" + tipoMoneda + " tienes ahorrado en" + nombreAlcancia + " $" + (monedaDosc * 200));
+                                System.out.println("De la moneda  $" + tipoMoneda + " tienes ahorrado en" + nombreAlcancia + " $" + (monedaDosc * 200));
                             } else if (tipoMoneda == 500) {
-                                System.out.println("De la mnoneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaQuinientos * 500));
+                                System.out.println("De la moneda  $" + tipoMoneda + " tienes ahorrado en " + nombreAlcancia + " $" + (monedaQuinientos * 500));
                             }
 
                             break;
