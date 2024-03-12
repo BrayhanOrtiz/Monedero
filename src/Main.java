@@ -87,7 +87,7 @@ public class Main {
                 }
 
             } while (entrada > 0 || entrada < 6);
-            System.out.println("");
+
 
         } while (salir==1);
 
