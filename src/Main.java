@@ -14,6 +14,7 @@ public class Main {
                 System.out.println("1)Agregar monedas\n2)Contar Monedas\n3)Total Ahorrado\n4)Romper alcancia\n5)Nueva alcancia");
                 System.out.println("Digite la opcion que necesita");
                 entrada = DatosMenu.nextInt();
+                System.out.println("bienvenido "+ nombreAlcancia);
 
                 if (entrada < 0 || entrada > 5) {
                     System.out.println("Entrada incorrecta");
